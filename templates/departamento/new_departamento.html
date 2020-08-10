@@ -1,0 +1,26 @@
+<h1>Nuevo departamento</h1>
+
+
+
+<h1>Crear departamento</h1>
+
+<form method="post"> {% csrf_token %}
+    <h3>Datos empleado</h3>
+    <p>
+        {{ form.nombre }}
+    </p>
+      <p>
+        {{ form.apellido }}
+    </p>
+    <h3>Datos Departamento</h3>
+      <p>
+        {{ form.departamento }}
+    </p>
+      <p>
+        {{ form.short_name }}
+    </p>
+
+
+
+    <button type="submit">Enviar</button>
+</form>
