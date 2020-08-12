@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2368e140-3c0e-4c09-ab9c-5d69e8665dbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employees/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/employees/settings/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/employees/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/employees/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +187,9 @@
       <updated>1596777401940</updated>
       <workItem from="1596777408443" duration="1239000" />
       <workItem from="1596859527266" duration="13402000" />
-      <workItem from="1596942200728" duration="10990000" />
+      <workItem from="1596942200728" duration="13132000" />
+      <workItem from="1597160621058" duration="378000" />
+      <workItem from="1597266245702" duration="1266000" />
     </task>
     <servers />
   </component>
@@ -196,7 +201,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

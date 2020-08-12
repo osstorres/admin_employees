@@ -1,7 +1,7 @@
 from .base import *
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
@@ -9,8 +9,8 @@ ALLOWED_HOSTS = []
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'fake name',
-        'USER': 'fake user',
+        'NAME': 'db_employees',
+        'USER': 'osiel',
         'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '5432'
